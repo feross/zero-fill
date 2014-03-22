@@ -1,13 +1,12 @@
 {
   "name": "zero-fill",
   "description": "Zero-fill a number to the given size.",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "author": "Feross Aboukhadijeh <feross@feross.org> (http://feross.org/)",
   "bugs": {
     "url": "https://github.com/feross/zero-fill/issues"
   },
-  "dependencies": {
-  },
+  "dependencies": {},
   "devDependencies": {
     "tape": "2.x"
   },
