@@ -1,0 +1,46 @@
+{
+  "name": "zero-fill",
+  "description": "Zero-fill a number to the given size.",
+  "version": "0.0.0",
+  "author": "Feross Aboukhadijeh <feross@feross.org> (http://feross.org/)",
+  "bugs": {
+    "url": "https://github.com/feross/zero-fill/issues"
+  },
+  "dependencies": {
+  },
+  "devDependencies": {
+    "tape": "2.x"
+  },
+  "homepage": "https://github.com/feross/zero-fill",
+  "keywords": [
+    "zero",
+    "zero fill",
+    "fill",
+    "zerofill",
+    "pad",
+    "0",
+    "zero pad",
+    "zeropad",
+    "string",
+    "number"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/feross/zero-fill.git"
+  },
+  "scripts": {
+    "test": "tape test/*.js"
+  },
+  "testling": {
+    "files": "test/*.js",
+    "browsers": [
+      "ie/9..latest",
+      "chrome/25..latest",
+      "firefox/20..latest",
+      "safari/6..latest",
+      "opera/15.0..latest"
+    ]
+  }
+}
