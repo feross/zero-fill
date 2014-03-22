@@ -17,7 +17,7 @@ npm install zero-fill
 ```js
 var zeroFill = require('zero-fill')
 
-zeroFill(1, 4); // '0001'
+zeroFill(1, 4) // '0001'
 ```
 
 ## license
