@@ -1,4 +1,4 @@
-# zero-fill [![build](http://img.shields.io/travis/feross/zero-fill.svg)](https://travis-ci.org/feross/zero-fill) [![version](http://img.shields.io/npm/v/zero-fill.svg)](https://npmjs.org/package/zero-fill)
+# zero-fill [![build](https://img.shields.io/travis/feross/zero-fill.svg)](https://travis-ci.org/feross/zero-fill) [![version](https://img.shields.io/npm/v/zero-fill.svg)](https://npmjs.org/package/zero-fill)
 
 ### Zero-fill a number to the given size.
 
