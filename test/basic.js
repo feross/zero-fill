@@ -14,3 +14,10 @@ test('width edge cases', function (t) {
   t.equal(zeroFill(0, 1), '1', 'zero width')
   t.end()
 })
+
+test('partial application', function (t) {
+  t.equal(zeroFill(4)(1), '0001')
+  t.equal(zeroFill(10)(1), '0000000001')
+  t.equal(zeroFill(1)(1), '1')
+  t.end()
+})
