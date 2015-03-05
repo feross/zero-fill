@@ -18,8 +18,21 @@ npm install zero-fill
 var zeroFill = require('zero-fill')
 
 zeroFill(4, 1) // '0001'
-zeroFill(10, 1) // '0000000001'
+zeroFill(10, 55) // '0000000055'
 zeroFill(1, 1) // '1'
+```
+
+Partial application:
+
+```js
+zeroFill(4)(1) // '0001'
+```
+
+Custom padding character:
+
+```js
+zeroFill(4, 55, ' ')  // '  55'
+zeroFill(4, 500, ' ') // ' 500'
 ```
 
 ## license
