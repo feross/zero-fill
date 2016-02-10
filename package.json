@@ -1,7 +1,7 @@
 {
   "name": "zero-fill",
   "description": "Zero-fill a number to the given size.",
-  "version": "2.2.1",
+  "version": "2.2.2",
   "author": {
     "name": "Feross Aboukhadijeh",
     "email": "feross@feross.org",
