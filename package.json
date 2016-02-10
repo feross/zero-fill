@@ -9,6 +9,7 @@
   "dependencies": {},
   "devDependencies": {
     "tape": "^4.0.0"
+    "standard": "^6.0.4",
   },
   "homepage": "https://github.com/feross/zero-fill",
   "keywords": [
@@ -30,16 +31,6 @@
     "url": "git://github.com/feross/zero-fill.git"
   },
   "scripts": {
-    "test": "tape test/*.js"
-  },
-  "testling": {
-    "files": "test/*.js",
-    "browsers": [
-      "ie/9..latest",
-      "chrome/25..latest",
-      "firefox/20..latest",
-      "safari/6..latest",
-      "opera/15.0..latest"
-    ]
+    "test": "standard && tape test/*.js"
   }
 }
