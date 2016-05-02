@@ -12,7 +12,7 @@
   },
   "dependencies": {},
   "devDependencies": {
-    "standard": "^6.0.4",
+    "standard": "^7.0.0",
     "tape": "^4.4.0"
   },
   "keywords": [
