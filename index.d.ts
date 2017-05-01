@@ -1,3 +1,3 @@
-/**
- * Created by loupax on 02/05/2017.
- */
+declare module "zero-fill"{
+    export default function zeroFill(width:number, num:number, pad?:string|number):string;
+}
