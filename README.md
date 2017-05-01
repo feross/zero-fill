@@ -29,6 +29,13 @@ zeroFill(10, 55) // '0000000055'
 zeroFill(1, 1) // '1'
 ```
 
+```typescript
+import * as ZF from "zero-fill";
+ZF.zeroFill(4, 1) // '0001'
+ZF.zeroFill(10, 55) // '0000000055'
+ZF.zeroFill(1, 1) // '1'
+```
+
 Partial application:
 
 ```js
