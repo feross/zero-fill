@@ -1,5 +1,7 @@
 # zero-fill [![travis][travis-image]][travis-url] [![npm][npm-image]][npm-url] [![downloads][downloads-image]][downloads-url] [![javascript style guide][standard-image]][standard-url]
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/feross/zero-fill.svg)](https://greenkeeper.io/)
+
 [travis-image]: https://img.shields.io/travis/feross/zero-fill/master.svg
 [travis-url]: https://travis-ci.org/feross/zero-fill
 [npm-image]: https://img.shields.io/npm/v/zero-fill.svg
