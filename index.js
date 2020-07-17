@@ -1,3 +1,4 @@
+/*! zero-fill. MIT License. Feross Aboukhadijeh <https://feross.org/opensource> */
 /**
  * Given a number, return a zero-filled string.
  * From http://stackoverflow.com/questions/1267283/
